@@ -1,3 +1,21 @@
+#navbar {
+    position: fixed;
+    min-width: 275px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
 header {
     font-weight: bold;
 }
@@ -13,4 +31,16 @@ code {
     padding: 15px;
     margin: 10px;
     border-radius: 5px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a:visited {
+    color: #74638f;
+}
+
+nav > ul {
+    list-style: none;
 }
