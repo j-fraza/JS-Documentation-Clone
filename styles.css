@@ -60,18 +60,12 @@ nav > ul {
     list-style: none;
 }
 
-code {
-    max-width: 55em;
-    display: block;
-    text-align: left;
-    /* white-space: pre; */
-    position: relative;
-    word-break: normal;
-    line-height: 2;
-    padding: 15px;
-    margin: 10px;
+pre {
+    max-width: 45em;
+    padding: 1em;
     border-radius: 5px;
     background-color: #eee;
     border-left: 2px solid #69c;
     border-bottom: 1px solid #d8dee9;
+    overflow-x: auto;
 }
