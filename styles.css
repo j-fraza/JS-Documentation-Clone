@@ -18,6 +18,8 @@
 
 body {
     font-family: "Helvetica", "Arial", sans-serif;
+    margin: 0 auto;
+    /* max-width: 20em; */
     color: #555;
     line-height: 1.5;
     padding: 1.5em 1em;
@@ -39,6 +41,7 @@ nav > ul {
 }
 
 code {
+    max-width: 55em;
     display: block;
     text-align: left;
     /* white-space: pre; */
