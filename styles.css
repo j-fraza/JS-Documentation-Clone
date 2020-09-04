@@ -29,35 +29,35 @@ header {
 }
 
 nav > header {
-    margin: 15px 0 0 15px;
+    margin: 10px;
+    text-align: center;
     font-size: 1.8em;
 }
 
 nav > ul {
-
+    list-style: none;
 }
 
 code {
     display: block;
     text-align: left;
-    white-space: pre;
+    /* white-space: pre; */
     position: relative;
     word-break: normal;
     line-height: 2;
-    background-color: #eee;
     padding: 15px;
     margin: 10px;
     border-radius: 5px;
+    background-color: #eee;
+    border-left: 2px solid #69c;
+    border-bottom: 1px solid #d8dee9;
 }
 
-a {
+a, a:visited {
+    color: rgb(53, 128, 202);
     text-decoration-line: none;
 }
 
-a:visited {
-    color: #333;
-}
-
-nav > ul {
-    list-style: none;
+main > section > header {
+    font-size: 26px;
 }
