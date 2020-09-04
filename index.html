@@ -92,7 +92,7 @@
 			<article>
 				<p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world"
 					JavaScript code:
-					<pre>function greetMe(yourName) { alert("Hello " + yourName); } greetMe("World");</pre>
+					<code>function greetMe(yourName) { alert("Hello " + yourName); } greetMe("World");</code>
 				</p>
 
 			</article>
@@ -116,17 +116,17 @@
 			<header>Declaring Variables</header>
 			<article> You can declare a variable in three ways:
 				<p>With the keyword var. For example,
-					<pre>var x = 42.</pre>
+					<code>var x = 42.</code>
 					This syntax can be used to declare both
 					local and global variables.
 				</p>
 				<p>By simply assigning it a value. For example,
-					<pre>x = 42.</pre>
+					<code>x = 42.</code>
 					This always declares a global
 					variable. It generates a strict JavaScript warning. You shouldn't use this variant.
 				</p>
 				<p>With the keyword let. For example,
-					<pre>let y = 13.</pre>
+					<code>let y = 13.</code>
 					This syntax can be used to declare a
 					block scope local variable. See Variable scope below.
 				</p>
@@ -146,9 +146,9 @@
 					the following code will log 5, because the scope of x is the function (or global context) within
 					which x is declared, not the block, which in this case is an if statement.
 				</p>
-				<pre>if (true) { var x = 5; } console.log(x); // 5</pre>
+				<code>if (true) { var x = 5; } console.log(x); // 5</code>
 				<p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
-				<pre>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined</pre>
+				<code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined</code>
 			</article>
 		</section>
 	</main>
